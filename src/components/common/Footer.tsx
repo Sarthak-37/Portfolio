@@ -1,7 +1,7 @@
 
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, } from 'lucide-react';
 
 interface SocialLink {
   icon: React.ReactNode;
