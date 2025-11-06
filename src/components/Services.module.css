@@ -1,0 +1,20 @@
+.gradientRadial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+.gradientToRight {
+  background: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.gradientToBottomRight {
+  background: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.gradientToBottom {
+  background: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.gradientClipText {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
