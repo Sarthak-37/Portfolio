@@ -285,10 +285,10 @@ const SkillsProject: React.FC = () => {
     },
     {
       id: '2',
-      title: 'AI Code Collaborator(CodeCollab)',
-      description: 'A code Collaboration platform that leverages AI to assist developers in writing, reviewing, and optimizing code in real-time, enhancing productivity and code quality.',
-      techStack: ['Javascript', 'React', 'WebSocket.io', 'GenAI', 'React-Toast', 'Google OAuth'],
-      link: 'https://d15-b-45-fsd-mini-project-9642.vercel.app/login'
+      title: 'Complaint Management System',
+      description: 'A secure grievance resolution platform that leverages custom Role-Based Access Control (RBAC) and a deterministic state machine to strictly govern access permissions and complaint lifecycles, ensuring zero unauthorized access and complete process integrity.',
+      techStack: ['Typescript', 'React', 'JWT', 'cron', 'React-Toast','SendGrid' ],
+      link: 'https://complaint-management-system-umber.vercel.app/auth'
     },
   ];
 
