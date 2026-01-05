@@ -278,17 +278,23 @@ const SkillsProject: React.FC = () => {
   const sampleProjects: Project[] = [
     {
       id: '1',
-      title: 'Student\'s Achievement System',
-      description: 'A full-stack onestop solution where college students can upload can keep track of thier achievements and College Faculties can analyse manage student records, reducing manual task and saving time..',
-      techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Zustand', 'JWT', 'Google OAuth'],
-      link: 'https://students-achievements.vercel.app/login'
-    },
-    {
+      title: 'WellNest: Secure Wellness Session Platform',
+      description: 'WellNest is a full-stack application designed to be a secure platform for wellness sessions. Users can register, log in, view public wellness sessions, and manage their own sessions (drafting, publishing, editing, and deleting). The platform emphasizes secure authentication, efficient session management, and an intuitive user interface',
+      techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Zustand', 'JWT',],
+      link: 'https://well-nest-blush-six.vercel.app/login'
+    },{
       id: '2',
       title: 'Complaint Management System',
       description: 'A secure grievance resolution platform that leverages custom Role-Based Access Control (RBAC) and a deterministic state machine to strictly govern access permissions and complaint lifecycles, ensuring zero unauthorized access and complete process integrity.',
       techStack: ['Typescript', 'React', 'JWT', 'cron', 'React-Toast','SendGrid' ],
       link: 'https://complaint-management-system-umber.vercel.app/auth'
+    },
+    {
+      id: '3',
+      title: 'Student\'s Achievement System',
+      description: 'A full-stack onestop solution where college students can upload can keep track of thier achievements and College Faculties can analyse manage student records, reducing manual task and saving time..',
+      techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Zustand', 'JWT', 'Google OAuth'],
+      link: 'https://students-achievements.vercel.app/login'
     },
   ];
 

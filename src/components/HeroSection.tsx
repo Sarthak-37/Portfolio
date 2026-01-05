@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
   const fullName = 'Sarthak Pramod Mhatre';
 
   // Dynamic role rotation
-  const roles = ['Software Developer', 'Web Developer', 'UI/UX Enthusiast'];
+  const roles = ['Software Developer', 'Web Developer'];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [roleText, setRoleText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);

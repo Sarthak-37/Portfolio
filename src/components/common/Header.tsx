@@ -88,7 +88,7 @@ const Header: React.FC = () => {
               aria-label="Download Resume"
             >
               <Download className="w-4 h-4" />
-              <span className="hidden sm:inline font-semibold font-fira"><a href="https://drive.google.com/file/d/1Wdg1g1jPZbgJMC5Ny0iG7j4ZgeQov0VS/view?usp=drive_link" download="Sarthak_Pramod_Mhatre_Resume.pdf">Resume</a></span>
+              <span className="hidden sm:inline font-semibold font-fira"><a href="https://drive.google.com/file/d/1g9ktyAcgtfJpmaqVhFo3hzxVgM0PluJK/view?usp=sharing">Resume</a></span>
             </button>
           </div>
         </div>

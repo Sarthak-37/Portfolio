@@ -5,19 +5,6 @@ import styles from './Services.module.css';
 
 const services = [
   {
-    title: 'Front-End Developer',
-    description:
-      'Crafting pixel-perfect, responsive user interfaces with React.js, TypeScript, and Tailwind CSS. Specialized in building performant SPAs with modern component architecture and state management solutions.',
-    deliverables: [
-      'Responsive web applications',
-      'Component libraries',
-      'Performance optimization',
-      'Cross-browser compatibility',
-    ],
-    icon: '⚛️',
-    direction: { x: -100, y: -100 },
-  },
-  {
     title: 'Full-Stack Developer',
     description:
       'End-to-end application development using MERN stack (MongoDB, Express.js, React, Node.js). Architecting scalable backends with RESTful APIs and seamless frontend-backend integration.',
@@ -29,19 +16,6 @@ const services = [
     ],
     icon: '🚀',
     direction: { x: 0, y: -100 },
-  },
-  {
-    title: 'UI/UX Engineer',
-    description:
-      'Bridging design and development with Tailwind CSS and Framer Motion to create intuitive, animated interfaces. Transforming Figma designs into production-ready, accessible code.',
-    deliverables: [
-      'Interactive prototypes',
-      'Design system implementation',
-      'Micro-interactions',
-      'Accessibility compliance',
-    ],
-    icon: '🎨',
-    direction: { x: 100, y: -100 },
   },
   {
     title: 'Software Developer',
